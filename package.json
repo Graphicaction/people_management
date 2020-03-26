@@ -1,0 +1,33 @@
+{
+  "name": "people_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "seed": "node db/createSeedData.js",
+    "import": "node db/importData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graphicaction/people_management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Graphicaction/people_management/issues"
+  },
+  "homepage": "https://github.com/Graphicaction/people_management#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "axios": "^0.19.2",
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "ora": "^4.0.3"
+  }
+}
